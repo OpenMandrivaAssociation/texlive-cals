@@ -1,3 +1,9 @@
+# revision 22766
+# category Package
+# catalog-ctan /macros/latex/contrib/cals
+# catalog-date 2010-10-26 15:02:43 +0200
+# catalog-license lppl1.3
+# catalog-version 2.0.1
 Name:		texlive-cals
 Version:	2.0.1
 Release:	1
@@ -159,6 +165,7 @@ compatible with multicol and pdfsync.
 %doc %{_texmfdistdir}/source/latex/cals/rowsep.dtx
 %doc %{_texmfdistdir}/source/latex/cals/span.dtx
 %doc %{_texmfdistdir}/source/latex/cals/table.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -169,3 +176,5 @@ compatible with multicol and pdfsync.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
