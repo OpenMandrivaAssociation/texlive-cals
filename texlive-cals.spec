@@ -1,12 +1,12 @@
-# revision 22766
+# revision 30784
 # category Package
 # catalog-ctan /macros/latex/contrib/cals
-# catalog-date 2010-10-26 15:02:43 +0200
+# catalog-date 2011-12-30 16:30:48 +0100
 # catalog-license lppl1.3
 # catalog-version 2.0.1
 Name:		texlive-cals
 Version:	2.0.1
-Release:	2
+Release:	3
 Summary:	Multipage tables with wide range of features
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cals
@@ -88,6 +88,10 @@ compatible with multicol and pdfsync.
 %doc %{_texmfdistdir}/doc/latex/cals/test/regression/test_040_rowheight.tex
 %doc %{_texmfdistdir}/doc/latex/cals/test/regression/test_050_leftskip_rowspan.chk
 %doc %{_texmfdistdir}/doc/latex/cals/test/regression/test_050_leftskip_rowspan.tex
+%doc %{_texmfdistdir}/doc/latex/cals/test/regression/test_060_alignment.chk
+%doc %{_texmfdistdir}/doc/latex/cals/test/regression/test_060_alignment.tex
+%doc %{_texmfdistdir}/doc/latex/cals/test/regression/test_065_alignment.chk
+%doc %{_texmfdistdir}/doc/latex/cals/test/regression/test_065_alignment.tex
 %doc %{_texmfdistdir}/doc/latex/cals/test/rowsep/test_10_waitrule.chk
 %doc %{_texmfdistdir}/doc/latex/cals/test/rowsep/test_10_waitrule.tex
 %doc %{_texmfdistdir}/doc/latex/cals/test/rowsep/test_15_waitover.chk
@@ -165,18 +169,3 @@ compatible with multicol and pdfsync.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.0.1-2
-+ Revision: 749966
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.0.1-1
-+ Revision: 717998
-- texlive-cals
-- texlive-cals
-- texlive-cals
-- texlive-cals
-- texlive-cals
-
