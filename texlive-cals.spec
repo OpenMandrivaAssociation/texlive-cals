@@ -1,6 +1,6 @@
 Name:		texlive-cals
 Version:	2.4.2
-Release:	2
+Release:	3
 Summary:	Multipage tables with wide range of features
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cals
