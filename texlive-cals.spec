@@ -3,7 +3,7 @@ Version:	43003
 Release:	2
 Summary:	Multipage tables with wide range of features
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cals
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/cals
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cals.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cals.doc.r%{version}.tar.xz
